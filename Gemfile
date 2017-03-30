@@ -17,6 +17,9 @@ gem 'pg', group: :production
 # 12 factor for heroku
 gem 'rails_12factor', group: :production
 
+#add twitter bootstrap
+gem 'bootstrap-sass'
+
 # Use sqlite3 as the database for Active Record
 #sqlite3 for development and test database
 gem 'sqlite3',group: [:development, :test]
